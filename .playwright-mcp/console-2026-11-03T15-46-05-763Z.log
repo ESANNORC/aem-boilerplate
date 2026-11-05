@@ -1,0 +1,23 @@
+[    1048ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://admin.da.live/config/esannorc/aem-boilerplate/:0
+[    1222ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://admin.da.live/config/esannorc/aem-boilerplate/:0
+[    1907ms] [WARNING] TextSelection endpoint not pointing into a node with inline content (doc) @ https://da.live/deps/da-y-wrapper/dist/index.js:4
+[    2246ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://admin.da.live/config/esannorc/aem-boilerplate/:0
+[    2658ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://admin.da.live/config/esannorc/aem-boilerplate/:0
+[  670736ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://admin.da.live/config/esannorc/aem-boilerplate/:0
+[  670874ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://admin.da.live/config/esannorc/aem-boilerplate/:0
+[  670875ms] [WARNING] Error loading /esannorc/aem-boilerplate 404 @ https://da.live/blocks/canvas/editor-utils/editor-utils.js:600
+[  670977ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://admin.da.live/config/esannorc/aem-boilerplate/:0
+[  671122ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://admin.da.live/config/esannorc/aem-boilerplate/:0
+[  671236ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://admin.da.live/config/esannorc/aem-boilerplate/:0
+[  671321ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://admin.da.live/config/esannorc/aem-boilerplate/:0
+[  671540ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://admin.da.live/config/esannorc/aem-boilerplate/:0
+[  671833ms] [WARNING] TextSelection endpoint not pointing into a node with inline content (doc) @ https://da.live/deps/da-y-wrapper/dist/index.js:4
+[  671977ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://admin.da.live/config/esannorc/aem-boilerplate/:0
+[  672061ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://admin.da.live/config/esannorc/aem-boilerplate/:0
+[  672527ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://main--aem-boilerplate--esannorc.preview.da.live/blocks/edit/da-palette/da-palette.css:0
+[  672902ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://main--aem-boilerplate--esannorc.preview.da.live/blocks/metadata/metadata.js:0
+[  672902ms] [ERROR] failed to load module for metadata TypeError: Failed to fetch dynamically imported module: https://main--aem-boilerplate--esannorc.preview.da.live/blocks/metadata/metadata.js @ https://main--aem-boilerplate--esannorc.preview.da.live/scripts/aem.js:535
+[  673034ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://main--aem-boilerplate--esannorc.preview.da.live/blocks/metadata/metadata.css:0
+[  673034ms] [ERROR] failed to load block metadata Event @ https://main--aem-boilerplate--esannorc.preview.da.live/scripts/aem.js:543
+[  746390ms] [ERROR] Access to fetch at 'https://admin.hlx.page/preview/esannorc/aem-boilerplate/main/' from origin 'https://da.live' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ https://da.live/canvas#/esannorc/aem-boilerplate/index:0
+[  746391ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://admin.hlx.page/preview/esannorc/aem-boilerplate/main/:0

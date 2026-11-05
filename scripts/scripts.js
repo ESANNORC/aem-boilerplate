@@ -124,7 +124,9 @@ function decorateButtons(main) {
     // require authored formatting for buttonization
     const strong = a.closest('strong');
     const em = a.closest('em');
-    if (!strong && !em) return;
+    const plain = p.parentElement.classList.contains('default-content-wrapper')
+      && p.closest('.section')?.dataset.buttonStyle === 'plain';
+    if (!strong && !em && !plain) return;
 
     p.className = 'button-wrapper';
     a.className = 'button';
@@ -135,7 +137,7 @@ function decorateButtons(main) {
     } else if (strong) {
       a.classList.add('primary');
       strong.replaceWith(a);
-    } else {
+    } else if (em) {
       a.classList.add('secondary');
       em.replaceWith(a);
     }
@@ -151,6 +153,12 @@ export function decorateMain(main) {
   decorateIcons(main);
   buildAutoBlocks(main);
   decorateSections(main);
+  main.querySelectorAll('.section[data-heading-divider="true"]').forEach((section) => {
+    const heading = section.querySelector('.default-content-wrapper > h2');
+    if (heading && heading.nextElementSibling?.tagName !== 'HR') {
+      heading.after(document.createElement('hr'));
+    }
+  });
   decorateBlocks(main);
   decorateButtons(main);
 }

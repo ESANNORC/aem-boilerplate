@@ -82,6 +82,18 @@ function createSlide(row, slideIndex, carouselId) {
     slide.append(column);
   });
 
+  const image = slide.querySelector('.carousel-slide-image img');
+  const hideImage = () => {
+    slide.classList.add('carousel-slide-no-image');
+    slide.querySelector('.carousel-slide-image picture')?.remove();
+  };
+
+  if (!image || (image.complete && !image.naturalWidth)) {
+    hideImage();
+  } else {
+    image.addEventListener('error', hideImage, { once: true });
+  }
+
   const labeledBy = slide.querySelector('h1, h2, h3, h4, h5, h6');
   if (labeledBy) {
     slide.setAttribute('aria-labelledby', labeledBy.getAttribute('id'));

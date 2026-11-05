@@ -37,6 +37,10 @@
   min-height: min(50vw, calc(100dvh - var(--nav-height)));
 }
 
+.carousel .carousel-slide-no-image {
+  background-color: var(--text-color);
+}
+
 .carousel .carousel-slide:has(.carousel-slide-content[data-align='center']) {
   align-items: center;
 }
@@ -101,7 +105,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  z-index: 1;
+  z-index: 2;
 }
 
 /* stylelint-disable-next-line no-descending-specificity */
